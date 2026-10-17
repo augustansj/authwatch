@@ -1,0 +1,18 @@
+Oct 17 08:00:01 web01 sshd[1001]: Accepted publickey for alice from 192.0.2.10 port 50122 ssh2: ED25519 SHA256:abc123
+Oct 17 08:00:05 web01 systemd-logind[400]: New session 12 of user alice.
+Oct 17 09:10:00 web01 sshd[2001]: Failed password for root from 203.0.113.5 port 40001 ssh2
+Oct 17 09:10:10 web01 sshd[2002]: Failed password for root from 203.0.113.5 port 40002 ssh2
+Oct 17 09:10:20 web01 sshd[2003]: Failed password for root from 203.0.113.5 port 40003 ssh2
+Oct 17 09:10:30 web01 sshd[2004]: Failed password for root from 203.0.113.5 port 40004 ssh2
+Oct 17 09:10:40 web01 sshd[2005]: Failed password for root from 203.0.113.5 port 40005 ssh2
+Oct 17 09:10:50 web01 sshd[2006]: Failed password for root from 203.0.113.5 port 40006 ssh2
+Oct 17 09:11:00 web01 sshd[2007]: Accepted password for root from 203.0.113.5 port 40007 ssh2
+Oct 17 10:00:00 web01 sshd[3001]: Invalid user admin from 198.51.100.23 port 51000
+Oct 17 10:00:01 web01 sshd[3001]: Failed password for invalid user admin from 198.51.100.23 port 51000 ssh2
+Oct 17 10:05:00 web01 sshd[3002]: Invalid user oracle from 198.51.100.23 port 51001
+Oct 17 10:05:01 web01 sshd[3002]: Failed password for invalid user oracle from 198.51.100.23 port 51001 ssh2
+Oct 17 10:10:00 web01 sshd[3003]: Invalid user test from 198.51.100.23 port 51002
+Oct 17 10:10:01 web01 sshd[3003]: Failed password for invalid user test from 198.51.100.23 port 51002 ssh2
+Oct 17 11:00:00 web01 sudo[4001]:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/systemctl restart nginx
+Oct 17 11:30:00 web01 sudo[4002]:    alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/cat /etc/shadow
+this line is garbage and should be ignored
